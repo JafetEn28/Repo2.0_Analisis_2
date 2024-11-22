@@ -1,0 +1,66 @@
+# Archivos de configuración específicos del entorno
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de build y compilación
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.tlb
+*.tlog
+*.tmp
+*.vspscc
+*.vssscc
+
+# Paquetes NuGet y restauraciones automáticas
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos de configuración de IIS y depuración
+*.vs/
+_ReSharper*/
+*.DotSettings.user
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# Archivos generados de publicación
+publish/
+*.publishsettings
+
+# Configuraciones locales y archivos secretos
+appsettings.Development.json
+secrets.json
+.env
+*.config
+
+# Archivos y carpetas generados por sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos del sistema operativo macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos del sistema operativo Linux
+*~
+.nfs*
+
+# Archivos de sistema Windows
+Icon?
+._*
